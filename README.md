@@ -17,3 +17,7 @@ Since you have provided the adapter now you can directly create the TableGateway
 $users = $factory->create('users');
 $users = $factory->create('users', 'myAuthSchema');
 ```
+
+### Running the commands
+
+Now the [TableGateway](https://framework.zend.com/manual/2.2/en/modules/zend.db.table-gateway.html) is created, you can use it like it have always been.
