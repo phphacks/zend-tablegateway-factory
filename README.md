@@ -21,3 +21,10 @@ $users = $factory->create('users', 'myAuthSchema');
 ### Running the commands
 
 Now the [TableGateway](https://framework.zend.com/manual/2.2/en/modules/zend.db.table-gateway.html) is created, you can use it like it have always been.
+
+```php
+$users->select([
+   'username' => 'admin',
+   'password' => 'nimda'
+])
+```
