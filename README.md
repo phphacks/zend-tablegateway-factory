@@ -1,2 +1,1 @@
-# zend-tablegateway-factory
-Creates TableGateways according to schema and table name provided.
+# ![](https://i.imgur.com/ry6pNLD.png)
