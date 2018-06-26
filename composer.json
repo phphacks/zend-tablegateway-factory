@@ -1,0 +1,28 @@
+{
+    "name": "phphackes/zend-tablegateway-factory",
+    "description": "Creates TableGateways according to schema and table name provided.",
+    "type": "library",
+    "require": {
+        "zendframework/zend-db": "^2.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zend\\Db\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\" : "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas A. de Araújo",
+            "email": "lucas.araujo@bevicred.com.br"
+        }
+    ]
+}
