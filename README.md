@@ -12,4 +12,8 @@ $factory = new TableGatewayFactory($adapter);
 
 ### Getting a TableGateway
 
-Since you have provided the adapter now you can directly create the TableGateway using a string or a TableIdentifier object as identifier, like in the example below.
+Since you have provided the adapter now you can directly create the TableGateway using just the table name or also a schema name.
+```php
+$users = $factory->create('users');
+$users = $factory->create('users', 'myAuthSchema');
+```
