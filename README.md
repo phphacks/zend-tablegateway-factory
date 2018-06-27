@@ -6,7 +6,7 @@
 
 All the factory requires is a database adapter.
 ```php
-$adapter = $serviceLocator->get('Zend/Db/Adapter');
+$adapter = $serviceLocator->get('Zend/Db/Adapter/Adapter');
 $factory = new TableGatewayFactory($adapter);
 ```
 
